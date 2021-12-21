@@ -1,0 +1,20 @@
+<style>
+    #c{
+        color:#D4AF37
+    }
+</style>
+
+<div class="container">
+    <div class="vstack gap-4">
+        
+        <h1 class="display-3" id="c"><span class="material-icons" style="font-size:60px;">currency_bitcoin</span>Bitcoin </h1>
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+            <a href="{% url 'bitcoin:bhome'  %}"><button type="button" id='now' class="btn btn-secondary">now</button></a>
+            <a href="{% url 'bitcoin:hour' %}"><button type="button" id='1hour'class="btn btn-secondary">1h</button></a>
+            <a href="{% url 'bitcoin:day'%}"><button type="button" id='1day'class="btn btn-secondary">1d</button></a>
+            <a href="{% url 'bitcoin:week' %}"><button type="button" id='1week'class="btn btn-secondary">1w</button></a>
+            <a href="{% url 'bitcoin:month' %}"><button type="button" id='1month'class="btn btn-secondary">1m</button></a>
+            <a href="{% url 'bitcoin:year' %}"><button type="button" id='1year'class="btn btn-secondary">1y</button></a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load static %}
+
+
+
+
+{% block body %}
+<div class="container mt-4">
+    <h2>Select the Crypto to see the historic price</h>
+</div>
+<div class="container mt-4">
+    <form method="POST">
+        {{ form.as_p}}
+        {% csrf_token %}
+        <input class="btn btn-primary" type="submit" value="Submit">
+    </form>
+</div>
+
+<div class="container mt-4">
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Crypto Currency</th>
+            <th scope="col">Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Bitcoin</th>
+            <td>{{ object_list.0.Prices }}</td>
+
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

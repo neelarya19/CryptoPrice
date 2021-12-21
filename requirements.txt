@@ -1,0 +1,61 @@
+amqp==5.0.6
+asgiref @ file:///tmp/build/80754af9/asgiref_1625643473416/work
+attrs==21.2.0
+autobahn==21.11.1
+Automat==20.2.0
+billiard==3.6.4.0
+celery==5.2.1
+certifi==2021.10.8
+cffi==1.15.0
+charset-normalizer==2.0.9
+click==8.0.3
+click-didyoumean==0.3.0
+click-plugins==1.1.1
+click-repl==0.2.0
+coinbase==2.1.0
+colorama==0.4.4
+constantly==15.1.0
+cryptography==36.0.0
+daphne==3.0.2
+Deprecated==1.2.13
+dj-database-url==0.5.0
+Django @ file:///tmp/build/80754af9/django_1625585912945/work
+django-celery-beat==2.2.1
+django-celery-results==2.2.0
+django-filter==21.1
+django-timezone-field==4.2.1
+djangorestframework==3.13.0
+hyperlink==21.0.0
+idna==3.3
+importlib-metadata==4.8.2
+incremental==21.3.0
+kombu==5.2.2
+Markdown==3.3.6
+prompt-toolkit==3.0.24
+psycopg2 @ file:///C:/ci/psycopg2_1612298766762/work
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.21
+pycryptodome==3.12.0
+pyOpenSSL==21.0.0
+python-crontab==2.6.0
+python-dateutil==2.8.2
+python-dotenv==0.19.2
+pytz==2021.3
+redis==4.0.2
+requests==2.26.0
+service-identity==21.1.0
+six==1.16.0
+sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
+Twisted==21.7.0
+twisted-iocpsupport==1.0.2
+txaio==21.2.1
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
+urllib3==1.26.7
+vine==5.0.0
+wcwidth==0.2.5
+whitenoise==5.3.0
+wincertstore==0.2
+wrapt==1.13.3
+zipp==3.6.0
+zope.interface==5.4.0
