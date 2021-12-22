@@ -9,7 +9,7 @@ app.conf.enable_utc=True
 app.config_from_object(settings,namespace='CELERY')
 
 app.conf.beat_schedule={
-    'every-10-second':{
+    'every-2-minute':{
         'task':'bitcoin.tasks.update_price_hour',
         'schedule': crontab(minute='*/2'),
     },
