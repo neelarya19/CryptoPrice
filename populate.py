@@ -72,6 +72,8 @@ for x in c['prices']:
     q=Year(Prices=p,time=d)
     q.save()
 
+print("hello")
+
 # price = client.get_spot_price(currency_pair = 'BTC-USD')
 # p=price['amount']
 # q=SpotPrice(Prices=p)
