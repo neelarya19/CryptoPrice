@@ -1,5 +1,5 @@
 amqp==5.0.6
-asgiref @ file:///tmp/build/80754af9/asgiref_1625643473416/work
+asgiref==3.3.1
 attrs==21.2.0
 autobahn==21.11.1
 Automat==20.2.0
@@ -19,7 +19,7 @@ cryptography==36.0.0
 daphne==3.0.2
 Deprecated==1.2.13
 dj-database-url==0.5.0
-Django @ file:///tmp/build/80754af9/django_1625585912945/work
+Django==3.2.5
 django-celery-beat==2.2.1
 django-celery-results==2.2.0
 django-filter==21.1
@@ -33,7 +33,7 @@ incremental==21.3.0
 kombu==5.2.2
 Markdown==3.3.6
 prompt-toolkit==3.0.24
-psycopg2 @ file:///C:/ci/psycopg2_1612298766762/work
+psycopg2
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.21
@@ -47,10 +47,10 @@ redis==4.0.2
 requests==2.26.0
 service-identity==21.1.0
 six==1.16.0
-sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
+sqlparse 
 Twisted==21.7.0
 txaio==21.2.1
-typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
+typing-extensions 
 urllib3==1.26.7
 vine==5.0.0
 wcwidth==0.2.5
