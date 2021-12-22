@@ -134,7 +134,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT=BASE_DIR / 'staticfiles'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS=[BASE_DIR / 'static']
 
 # Default primary key field type
@@ -142,7 +142,7 @@ STATICFILES_DIRS=[BASE_DIR / 'static']
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-#celery settings
+# celery settings
 
 CELERY_BROKER_URL=os.environ('REDIS_URL')
 CELERY_ACCEPT_CONTENT=['application/json']
