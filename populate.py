@@ -31,6 +31,7 @@ import datetime
 
 API_KEY=os.environ['API_KEY']
 API_SECRET_KEY=os.environ['API_SECRET_KEY']
+print("hello")
 
 
 client = Client(API_KEY,API_SECRET_KEY)
