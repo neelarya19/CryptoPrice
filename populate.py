@@ -29,8 +29,8 @@ import datetime
 # print(c['prices'][0]['time'][14:16])
 # print(c['prices'][0]['time'][17:19])
 
-API_KEY=os.getenv('API_KEY')
-API_SECRET_KEY=os.getenv('API_SECRET_KEY')
+API_KEY=os.environ['API_KEY']
+API_SECRET_KEY=os.environ['API_SECRET_KEY']
 
 
 client = Client(API_KEY,API_SECRET_KEY)

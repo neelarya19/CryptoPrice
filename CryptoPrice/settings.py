@@ -24,7 +24,7 @@ TEMPLATE_DIR = BASE_DIR / 'templates'
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -144,7 +144,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # celery settings
 
-CELERY_BROKER_URL='redis://127.0.0.1:6379'
+CELERY_BROKER_URL=os.environ['REDIS_URL']
 CELERY_ACCEPT_CONTENT=['application/json']
 CELERY_RESULT_SERIALIZER='json'
 CELERY_TASK_SERIALIZER='json'
