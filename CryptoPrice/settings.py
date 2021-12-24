@@ -152,3 +152,5 @@ CELERY_TIMEZONE='UTC'
 CELERY_RESULT_BACKEND='django-db'
  
 CELERY_BEAT_SCHEDULER='django_celery_beat.schedulers:DatabaseScheduler'
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
