@@ -14,13 +14,15 @@ class CryptoHome(DetailView):
     
     def get(self,*args,**kwargs):
         form=CryptoForm()
-        return render(self.request,"home.html",{'form':form})
+        h=Hour.objects.all()      
+        return render(self.request,"home.html",{'form':form,'h':h})
 
     def post(self,*args,**kwargs):
         print("2")
         context={}
         form=CryptoForm()
         context['form']=form
+        
         if self.request.method=='POST':
             form=CryptoForm(self.request.POST)
             if form.is_valid():

@@ -27,7 +27,7 @@ TEMPLATE_DIR = BASE_DIR / 'templates'
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -144,7 +144,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # celery settings
 
-CELERY_BROKER_URL=os.environ['REDIS_URL']
+# CELERY_BROKER_URL=os.environ['REDIS_URL']
+CELERY_BROKER_URL='redis://localhost:6379/0'
+
 CELERY_ACCEPT_CONTENT=['application/json']
 CELERY_RESULT_SERIALIZER='json'
 CELERY_TASK_SERIALIZER='json'
