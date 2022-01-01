@@ -73,6 +73,10 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 - [Celery](https://docs.celeryproject.org/) - Celery is an asynchronous task queue or job queue which communicates via messages, usually using a broker to mediate between clients and workers.
 
+## [License](https://github.com/neelarya19/CryptoPrice/blob/main/LICENSE)
+
+MIT © [Neel arya](https://github.com/neelarya19/)
+
 
 
 
