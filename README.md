@@ -61,9 +61,19 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Built with
 
-[Django](https://docs.djangoproject.com/en/4.0/) - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+- [Django](https://docs.djangoproject.com/en/4.0/) - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
-[Django rest framework](https://www.django-rest-framework.org/) - Django REST framework is a powerful and flexible toolkit for building Web APIs.
+- [Django Rest Framework](https://www.django-rest-framework.org/) - Django REST framework is a powerful and flexible toolkit for building Web APIs.
+
+- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
+
+- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+
+- [Redis](https://redis.io/) - Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability. 
+
+- [Celery](https://docs.celeryproject.org/) - Celery is an asynchronous task queue or job queue which communicates via messages, usually using a broker to mediate between clients and workers.
+
+
 
 
 
