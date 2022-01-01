@@ -1,1 +1,1 @@
-# CryptoPrice
+# Crypto Price
